@@ -1,0 +1,326 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.2\u002Bd7bbcc6e95bbf573debf4c4c1750aa08fcb1bb83",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 151,
+      "max": [
+        -0.019952263683080673,
+        0.020110862329602242,
+        0.010295961052179337
+      ],
+      "min": [
+        -0.060173988342285156,
+        -0.020110862329602242,
+        -0.029925761744379997
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 151,
+      "max": [
+        0.98125481605529785,
+        0.98056256771087646,
+        0.9999808669090271
+      ],
+      "min": [
+        -0.99998128414154053,
+        -0.97877490520477295,
+        -0.9999808669090271
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 151,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 672,
+      "type": "SCALAR"
+    },
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "byteOffset": 6944,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.030372055247426033,
+        0.012759523466229439,
+        0.0080079510807991028
+      ],
+      "min": [
+        -0.0032429031562060118,
+        -0.013844964094460011,
+        -0.027637751772999763
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 6956,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 6968,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.99853515625,
+        1
+      ],
+      "min": [
+        0,
+        0.15749490261077881
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1716,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "byteOffset": 4832,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.080856122076511383,
+        0.026604486629366875,
+        0.0096273012459278107
+      ],
+      "min": [
+        0.041971717029809952,
+        -0.013844964094460011,
+        -0.029257101938128471
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 4844,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.88860577344894409,
+        0.43321022391319275,
+        0.90086793899536133
+      ],
+      "min": [
+        -0.90128570795059204,
+        -1,
+        -0.90128570795059204
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 4856,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.68421363830566406,
+        1
+      ],
+      "min": [
+        0,
+        0.00146484375
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1344,
+      "componentType": 5123,
+      "count": 186,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7712,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1788,
+      "byteOffset": 7712,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9500,
+      "uri": "testModel.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "SphereMaterial",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "CubeMaterial",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "ConeMaterial",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "id": "1",
+        "name": "sphere"
+      },
+      "name": "mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "extras": {
+        "id": "2",
+        "name": "cube"
+      },
+      "name": "mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "extras": {
+        "id": "3",
+        "name": "cone"
+      },
+      "name": "mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Sphere",
+      "children": [
+        1
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Cube",
+      "children": [
+        2
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Cone",
+      "mesh": 2
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
